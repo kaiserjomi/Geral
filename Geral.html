@@ -1,0 +1,17 @@
+<head>
+  <title>Geral</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  <!-- está a chamar o template hello --> 
+  {{> hello}}
+</body>
+
+<!-- template hello --> 
+<template name="hello">
+  <button>Click Me</button>
+  <!-- counter é um função Helper --> 
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
